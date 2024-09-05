@@ -6,20 +6,20 @@
 #### In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X.
 #### Save your normalized ndarray as X_normalized.npy
 
-### Start 
-### Import the numpy library
+## Start 
+## Import the numpy library
 import numpy as np
-### Initialize variable X as a randomized 5x5 array
+## Initialize variable X as a randomized 5x5 array
 X = np.random.rand(5,5)
-### Initialize and set X_mean as the mean of X
+## Initialize and set X_mean as the mean of X
 X_mean = X.mean()
-### Initializea and set X_std as the standard deviation of X
+## Initializea and set X_std as the standard deviation of X
 X_std = X.std()
-### Perform calculation by setting X_normalized as the Normalized form of X
+## Perform calculation by setting X_normalized as the Normalized form of X
 Z = (X - X_mean) / X_std
-### Save the normalized array to a .npy file
+## Save the normalized array to a .npy file
 np.save('X_normalized.npy', Z)
-### Test if loading the npy file works
+## Test if loading the npy file works
 np.load('X_normalized.npy')
 
 

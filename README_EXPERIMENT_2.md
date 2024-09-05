@@ -21,23 +21,22 @@ Z = (X - X_mean) / X_std
 np.save('X_normalized.npy', Z)
 ## Test if loading the npy file works
 np.load('X_normalized.npy')
+## End
 
 
+# 2.) **DIVISIBLE BY 3 PROBLEM: **
+#### Create a 10 x 10 ndarray which are the squares of the first 100 positive integers.
+#### From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
 
-
-2.) **DIVISIBLE BY 3 PROBLEM: **
-# Create a 10 x 10 ndarray which are the squares of the first 100 positive integers.
-# From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
-
-# Start
-# Import the python library numpy
+## Start
+## Import the python library numpy
 import numpy as np
-# Generate a 10x10 ndarray with squares of the first 100 positive integers
+## Generate a 10x10 ndarray with squares of the first 100 positive integers
 A = np.arange(1,101).reshape(10,10)**2
-# Find all elements in the generated array that are divisible by three
+## Find all elements in the generated array that are divisible by three
 divisible_by_3 = A[A % 3 == 0]
-# Save the result to a .npy file
+## Save the result to a .npy file
 np.save('div_by_3.npy', divisible_by_3)
-# Test by loading the saved npy file
+## Test by loading the saved npy file
 np.load('div_by_3.npy')
-# End
+## End

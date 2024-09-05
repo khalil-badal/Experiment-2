@@ -21,7 +21,7 @@ Z = (X - X_mean) / X_std
 np.save('X_normalized.npy', Z)
 ### Test if loading the npy file works
 np.load('X_normalized.npy')
-### End
+## End
 
 
 # 2.) **DIVISIBLE BY 3 PROBLEM: **
@@ -39,4 +39,4 @@ divisible_by_3 = A[A % 3 == 0]
 np.save('div_by_3.npy', divisible_by_3)
 ### Test by loading the saved npy file
 np.load('div_by_3.npy')
-### End
+## End

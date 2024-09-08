@@ -8,7 +8,7 @@
 
 ## Start 
 ### Import the numpy library
-import numpy as np
+// import numpy as np
 ### Initialize variable X as a randomized 5x5 array
 X = np.random.rand(5,5)
 ### Initialize and set X_mean as the mean of X

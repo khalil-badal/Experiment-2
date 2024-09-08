@@ -15,7 +15,7 @@ X = np.random.rand(5,5)
 X_mean = X.mean()
 # Initialize and set X_std as the standard deviation of X
 X_std = X.std()
-# Perform calculation by setting X_normalized as the Normalized form of X
+# Perform calculation by setting Z as the Normalized form of X
 Z = (X - X_mean) / X_std
 # Save the normalized array to a .npy file
 np.save('X_normalized.npy', Z)

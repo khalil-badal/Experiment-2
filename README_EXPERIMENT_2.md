@@ -6,7 +6,7 @@
 #### In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X.
 #### Save your normalized ndarray as X_normalized.npy
 
-'''python
+```python
 # Start 
 # Import the numpy library
 import numpy as np

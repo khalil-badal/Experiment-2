@@ -13,7 +13,7 @@ import numpy as np
 X = np.random.rand(5,5)
 # Initialize and set X_mean as the mean of X
 X_mean = X.mean()
-# Initializea and set X_std as the standard deviation of X
+# Initialize and set X_std as the standard deviation of X
 X_std = X.std()
 # Perform calculation by setting X_normalized as the Normalized form of X
 Z = (X - X_mean) / X_std

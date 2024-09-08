@@ -24,7 +24,7 @@ np.load('X_normalized.npy')
 # End
 
 ```
-# 2.) DIVISIBLE BY 3 PROBLEM: 
+# 2.) Divisible by 3 Problem: 
 #### Create a 10 x 10 ndarray which are the squares of the first 100 positive integers.
 #### From this ndarray, determine all the elements that are divisible by 3. Save the result as div_by_3.npy
 

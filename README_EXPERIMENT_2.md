@@ -1,3 +1,13 @@
+# EXPERIMENT 2
+## NUMERICAL PYTHON (NUMPY)
+## I. Intended Learning Outcomes:
+### 1. To identify the codes and functions incorporated in the Numpy library
+### 2. To be able to apply and use the different codes and functions in creating a Python program using a Numpy library
+
+## II. Instructions:
+#### Write a Python script/code in the Jupyter Notebook to do the given problems. You may submit your Jupyter
+notebook in the dedicated submission bin.
+
 # 1.) NORMALIZATION PROBLEM:
 #### Normalization is one of the most basic preprocessing techniques in data analytics which involves centering and scaling process. Centering means subtracting the data from the mean and scaling means dividing with its standard deviation. Mathematically, normalization can be expressed as: 𝑍 = 𝑋 − 𝑥̅ / 𝜎. In Python, element-wise mean and element-wise standard deviation can be obtained by using .mean() and .std() calls.
 #### In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X.

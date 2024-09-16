@@ -73,6 +73,6 @@ np.load('div_by_3.npy')
 ```
 ##  End
 
-```
+
 ## Authors
 ### Khalil T. Badal

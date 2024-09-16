@@ -48,3 +48,7 @@ np.save('div_by_3.npy', divisible_by_3)
 # Test by loading the saved npy file
 np.load('div_by_3.npy')
 # End
+
+```
+## Authors
+Khalil T. Badal

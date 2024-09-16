@@ -13,26 +13,36 @@ notebook in the dedicated submission bin.
 #### Save your normalized ndarray as X_normalized.npy
 
 
-#### Start 
+## Start 
 #### Import the numpy library
 ```python
 import numpy as np
 ```
-# Initialize variable X as a randomized 5x5 array
+#### Initialize variable X as a randomized 5x5 array
 ```python
 X = np.random.rand(5,5)
 # Initialize and set X_mean as the mean of X
 ```python
 X_mean = X.mean()
+```
 # Initialize and set X_std as the standard deviation of X
+```python
 X_std = X.std()
+```
 # Perform calculation by setting Z as the Normalized form of X
+```python
 Z = (X - X_mean) / X_std
+```python
+```
 # Save the normalized array to a .npy file
+```python
+```
 np.save('X_normalized.npy', Z)
 # Test if loading the npy file works
+```python
 np.load('X_normalized.npy')
-# End
+```
+## End
 
 ```
 ## 2.) DIVISIBLE BY 3 PROBLEM: 

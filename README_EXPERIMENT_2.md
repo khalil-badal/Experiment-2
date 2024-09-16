@@ -12,13 +12,17 @@ notebook in the dedicated submission bin.
 #### In this problem, create a random 5 x 5 ndarray and store it to variable X. Normalize X.
 #### Save your normalized ndarray as X_normalized.npy
 
+
+#### Start 
+#### Import the numpy library
 ```python
-# Start 
-# Import the numpy library
 import numpy as np
+```
 # Initialize variable X as a randomized 5x5 array
+```python
 X = np.random.rand(5,5)
 # Initialize and set X_mean as the mean of X
+```python
 X_mean = X.mean()
 # Initialize and set X_std as the standard deviation of X
 X_std = X.std()

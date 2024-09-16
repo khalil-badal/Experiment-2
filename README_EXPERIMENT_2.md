@@ -44,6 +44,8 @@ np.load('X_normalized.npy')
 ```
 ## End
 
+
+
 ```
 ## 2.) DIVISIBLE BY 3 PROBLEM: 
 #### Create a 10 x 10 ndarray which are the squares of the first 100 positive integers.
